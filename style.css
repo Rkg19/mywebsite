@@ -1,0 +1,178 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-family: 'poppins',sans-serif;
+  color: floralwhite;
+  background:white;
+}
+
+/* styels fro header container*/
+
+.header{
+   display:flex;
+  height: 35vh;
+  width:100vw;
+  background-image:url('Laptop.jpg') ;
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+.header h1{
+  color:rgb(170,170,228);
+  font-size: 6vw;
+  position: sticky;
+  top: 0em;
+  padding: 0 2rem;
+  letter-spacing: 0.2em;
+
+}
+
+h1 .name {
+  font-size: 1em;
+  color: rgb(170, 207, 227);
+}
+
+/* position for cancel & nav logo */
+.navlogo,.cancel{
+  position: absolute;
+  right:1em;
+  top:1.3em;
+  font-size: 4vw;
+}
+
+/*styles for creating navlogo */
+.navlogo .horizontal{
+  height:0em;
+  width: 1em;
+  margin: 0.1em 0em;
+  border: 0.2em solid silver;
+}
+
+/*styles for items of navbar */
+.navbar ul li{
+  list-style-type: none;
+  background: black;
+  margin: 2.4vh 1.4vh;
+  font-size: 2.9vh;
+}
+
+/* styles for links within li tag*/
+a{
+  text-decoration: none;
+  color: inherit;
+  font-weight: normal;
+}
+
+.navbar ul{
+  padding:0vh 2vh;
+}
+
+/* style for cancel icon- fontawesome*/
+.cancel i{
+  font-size:7vw;
+  margin: 0.1em 0em;
+  display: none;
+
+}
+
+/*styles for navbar*/
+.header .navbar{
+  height: 30vh;
+  width :40vw;
+  margin :0 0;
+  background:black;
+  color:white;
+  position: absolute;
+  top:0em;
+  display:none;
+  font-size:4.5vw;
+}
+
+
+/* styles for main container*/
+.main{
+  width: 100vw;
+  display: block;
+  color:#7F829A;
+}
+
+.blog-img{
+  height:15rem;
+  width: 80%;
+}
+
+.main h1,p,h3{
+  margin: 2rem 3rem;
+}
+
+.main h1{
+  color:black;
+}
+
+.main a{
+  text-decoration:none;
+  color: #08C2E5;
+}
+
+.main h2{
+  margin: 2rem 2rem;
+}
+
+.main img{
+  padding-left:2rem;
+}
+
+.blog2 li{
+  padding:0.3em 0;
+  margin: 0rem 3rem;
+}
+
+/* styles for footer container*/
+.footer{
+  height:160vh;
+  width :100%;
+  margin: 0vh 0;
+  background: #081A36DE;
+}
+
+.footer .product{
+    margin-top: 0vh;
+
+}
+
+.product-heading{
+  display: flex;  
+  margin-top:4vh;
+}
+
+.product-heading p{
+  padding:0 1vh;
+  font-family: "Poppins", sans-serif;
+  font-weight:400;
+  font-style: normal;
+  font-size: 3.3vh;
+  font-weight: bolder;
+  margin-left: 2.1vh;
+}
+
+.heading-hr{
+  height:0;
+  width: 100%;
+  border: 0.1vh solid ghostwhite;
+  margin-top:50px;
+  margin-left: 0vh;
+  
+}
+
+.footer ul li{
+  list-style-type: none;
+  text-transform: capitalize;
+  margin:2vh 0vh;
+  position: relative;
+  left:-1.5vh;
+}
